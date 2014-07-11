@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80B7FF"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/place_name"
+        android:inputType="text"
+        android:paddingTop="20dp"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/txtCredCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="N° Cartão"
+        android:paddingTop="20dp"
+        android:textColor="#fff"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/txtMes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Mes"
+            android:textColor="#fff" 
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/txtAno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Ano"
+            android:textColor="#fff"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/txtCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/place_cod_seg"
+            android:inputType="number"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/place_value"
+        android:inputType="numberDecimal"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="efetuarPagamentoClick"
+        android:text="@string/btn_pagar"
+        android:textColor="#fff" />
+
+</LinearLayout>

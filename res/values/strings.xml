@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">POS Mobile</string>
+    
+    <string name="lbname">Nome:</string>
+    <string name="lbprice">Preço:</string>
+    <string name="lbok">Adicionar</string>
+    
+    <string name="btadd">Adicionar Produtos</string>
+    <string name="btlistar">Listar Carrinho</string>
+    
+    <string name="place_name">Nome</string>
+    <string name="place_value">R$0,00</string>
+	<string name="place_cod_seg">Cod. Seguranca</string>
+	<string name="place_cod_pag">Codigo Pagamento</string>
+	
+	<string name="btn_pagar">Efetuar Pagamento</string>
+	<string name="btn_cancelar">Cancelar</string>
+
+</resources>
